@@ -1,0 +1,29 @@
+{
+  "name": "OmniBox 资源站订阅",
+  "version": 1,
+  "remark": "GitHub Raw Subscription",
+  "sources": [
+    {
+      "key": "bdzy",
+      "name": "百度云资源",
+      "type": "vod",
+      "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml",
+      "logo": "https://www.bdzy.tv/template/stui_tpl/statics/img/logo_max_f.png",
+      "nsfw": false,
+      "extra": {
+        "gfw": false
+      }
+    },
+    {
+      "key": "jinyingzy",
+      "name": "金鹰资源采集网",
+      "type": "vod",
+      "api": "https://jyzyapi.com/provide/vod",
+      "logo": "https://jinyingzy.net/template/jinying/images/logo.png",
+      "nsfw": false,
+      "extra": {
+        "gfw": false
+      }
+    }
+  ]
+}
